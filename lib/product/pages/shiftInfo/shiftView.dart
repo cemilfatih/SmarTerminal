@@ -29,24 +29,7 @@ class shiftView extends StatelessWidget with shiftInfoMixin {
               if(model == null){
                 return const Text("Failed to load selected shift. Please try again.");
               }
-        
-              /*
-        
-                String tarih;
-                String saat;
-                String ad;
-                String soyad;
-                double satisToplam;
-                double fark;
-                double iadeToplam;
-                double veresiyeToplam;
-                double posToplam;
-                double nakteStop;
-                double giderToplam;
-                double gelirToplam;
-                int musteriSayisi;
-        
-               */
+
         
               return Column(
                 mainAxisAlignment: MainAxisAlignment.center,
